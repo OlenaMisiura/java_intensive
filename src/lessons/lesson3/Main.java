@@ -58,9 +58,9 @@ public class Main {
         System.out.println("all objects from pcs: ->");
         System.out.println(Arrays.toString(pcs));
 
-        PC formatting=new PC();
+        PC_arrays formatting=new PC_arrays();
          //formatting.sorted_pc(pcs);
-        System.out.println(Arrays.toString(formatting.sorted_pc(pcs)));
+        System.out.println(Arrays.toString(formatting.filtered_pc(pcs)));
 
         formatting.filtered_pc(pcs,2);
 
