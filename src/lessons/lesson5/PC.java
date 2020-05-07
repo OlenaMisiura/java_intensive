@@ -13,7 +13,7 @@ public class PC {
     private double processor_frequency;
     private String processor_model;
 
-    public PC() {
+    public PC(String s, double v, int i, double v1, String s1) {
     }
 
     public PC(int id, String brand, double monitor_diagonal, int memory_size, double processor_frequency, String processor_model) {
