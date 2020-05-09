@@ -1,6 +1,6 @@
 package lessons.lesson7;
 
-public class Square implements calculateSquare {
+public class Square implements СalculateSquare {
     private    int a;
     private  int b;
 

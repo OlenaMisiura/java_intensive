@@ -2,7 +2,7 @@ package lessons.lesson7;
 
 import static java.lang.Math.*;
 
-public class Circle implements calculateSquare {
+public class Circle implements СalculateSquare {
    private int r;
 
     public Circle() {

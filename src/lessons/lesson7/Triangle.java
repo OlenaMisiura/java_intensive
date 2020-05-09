@@ -1,6 +1,6 @@
 package lessons.lesson7;
 
-public class Triangle implements calculateSquare {
+public class Triangle implements СalculateSquare {
   private int a;
   private int b;
   private int c;

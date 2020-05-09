@@ -1,6 +1,6 @@
 package lessons.lesson7;
 
-public interface calculateSquare {
+public interface СalculateSquare {
 
     public double calculate();
 }
