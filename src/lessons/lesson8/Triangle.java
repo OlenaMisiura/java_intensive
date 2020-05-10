@@ -1,7 +1,7 @@
 package lessons.lesson8;
 
 public class Triangle extends Calculator{
-    int a;
+  //  int a;
     int b;
     int c;
 
@@ -9,13 +9,13 @@ public class Triangle extends Calculator{
     }
 
     public Triangle(int a, int b, int c) {
-        this.a = a;
+        super(a);
         this.b = b;
         this.c = c;
     }
 
     @Override
     public double count() {
-        return a*b*c;
+        return super.a*b*c;
     }
 }
