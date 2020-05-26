@@ -43,6 +43,4 @@ public class Main {
         zoo.put(person,null);
         zooclub.setClub(zoo);
     }
-
-    
 }
